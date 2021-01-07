@@ -1,0 +1,168 @@
+<!-- http://completewebdevelopercourse.com/clone/ -->
+<!doctype html>
+<html>
+  <head>
+    <style type="text/css">
+      #top_bar {
+	  width: 1000px;
+	  margin: 0 auto;
+      }
+      body {
+	  margin: 0;
+	  padding: 0;
+	  font-family: Helvetica, Arial, sans-serif;
+      }
+      #bbc_logo {
+	  margin-top: 7.5px;
+	  margin-right: 9px;
+	  margin-left: 3px;
+	  float: left;
+      }
+      .top_bar_tabs {
+	  float: left;
+	  border-left: 1px #CCCCCC solid;
+	  font-weight: bold;
+	  font-size: 80%;
+	  padding: 12px 11px 8px 11px;
+      }
+      #sign_in {
+	  padding-right: 80px;
+	  padding-left: 41px;
+      }
+      #more {
+	  border-right: 1px #CCCCCC solid;
+	  padding-right: 55px;
+      }
+      #search_bar {
+	  background-color: #E4E4E4;
+	  /*
+	  float: right;
+	  position: relative;
+	  top: -30px;
+	  left: -45px;
+	 */
+	  padding: 3px;
+	  padding-left: 5px;
+	  border-width: 0px;
+	  font-weight: bold;
+	  color: black;
+      }
+      #sign_in:hover {
+	  border-bottom: 4px #1188BB solid;
+      }
+      #home:hover {
+	  border-bottom: 4px #262626 solid;
+      }
+      #news_:hover {
+	  border-bottom: 4px #992211 solid;
+      }
+      #sport:hover {
+	  border-bottom: 4px #FFEE11 solid;
+      }
+      #weather:hover {
+	  border-bottom: 4px #88CCEE solid;
+      }
+      #i_player:hover {
+	  border-bottom: 4px #ED3D7D solid;
+      }
+      #tv:hover {
+	  border-bottom: 4px #262626 solid;
+      }
+      #radio:hover {
+	  border-bottom: 4px #262626 solid;
+      }
+      #more:hover {
+	  border-bottom: 4px #262626 solid;
+      }
+      a {
+	  color: black;
+	  text-decoration: none;
+      }
+      a:visited {
+	  color: black;
+      }
+      #search_icon {
+	  background-color: #E4E4E4;
+	  position: relative;
+	  top: 6px;
+	  padding: 1.5px;
+	  left: -5px;
+	  padding-right: 5px;
+      }
+      .left {
+	  float: left;
+      }
+      .right {
+	  float: right;
+      }
+      .search {
+	  position: relative;
+	  top: -35px;
+	  left: -20px;
+      }
+    </style>
+    <title>Technology - BBC News</title>
+  </head>
+  <body>
+    <div id="top_bar">
+      <a href="http://www.bbc.co.uk/">
+	<img id="bbc_logo" src="Images/bbc-blocks-dark.png">
+      </a>
+      <div id="sign_in" class="top_bar_tabs">
+	<a href="https://account.bbc.com/signin?realm=%2F&clientId=Account&ptrt=http%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Ftechnology&isCasso=false&action=sign-in&redirectUri=https%3A%2F%2Fsession.bbc.co.uk%2Fsession%2Fcallback%3Frealm%3D%2F&service=IdSignInService&nonce=cNW8O21i-nxsODD4HGQIk28Y30f7IDTXdWig">
+	  Sign in
+	</a>
+      </div>
+      <table>
+	<thead>
+	  <tr>
+	    <th id="home" class="top_bar_tabs">
+	      <a href="http://www.bbc.co.uk/news/technology#">
+		Home
+	      </a>
+	    </th>
+	    <th id="news_" class="top_bar_tabs">
+	      <a href="http://www.bbc.co.uk/news/">
+		News
+	      </a>
+	    </th>
+	    <th id="sport" class="top_bar_tabs">
+	      <a href="http://www.bbc.co.uk/sport/">
+		Sport
+	      </a>
+	    </th>
+	    <th id="weather" class="top_bar_tabs">
+	      <a href="http://www.bbc.co.uk/weather/">
+		Weather
+	      </a>
+	    </th>
+	    <th id="i_player" class="top_bar_tabs">
+	      <a href="http://www.bbc.co.uk/iplayer/">
+		iPlayer
+	      </a>
+	    </th>	  
+	    <th id="tv" class="top_bar_tabs">
+	      <a href="http://www.bbc.co.uk/tv/">
+		TV
+	      </a>
+	    </th>
+	    <th id="radio" class="top_bar_tabs">
+	      <a href="http://www.bbc.co.uk/radio/">
+		Radio
+	      </a>
+	    </th>
+	    <th id="more" class="top_bar_tabs">
+	      <a href="http://www.bbc.co.uk/news/technology#orb-footer">
+		More
+	      </a>
+	    </th>
+	  </tr>
+	</thead>
+      </table>
+      <form class="right search">
+	<input id="search_bar" type="text" placeholder="Search">
+	<input id="search_icon" type="image" src="Images/orb-search-dark.png">
+      </form>
+    </div>
+  </body>
+</html>

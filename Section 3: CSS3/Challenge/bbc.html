@@ -1,0 +1,175 @@
+<!-- http://completewebdevelopercourse.com/clone/ -->
+<!doctype html>
+<html>
+  <head>
+    <style type="text/css">
+      body {
+	  position: relative;
+	  margin: 0;
+	  padding: 0;
+      }
+      .bbc {
+	  color: white;
+	  background-color: black;
+	  font-size: 150%;
+	  width: 20px;
+	  margin-right: 2.5px;
+	  text-align: center;
+	  padding: 0px 2.5px;
+      }
+      #sign_in {
+	  padding: 5px 80px 5px 40px;
+      }
+      a {
+	  text-decoration: none;
+	  color: black;
+      }
+      .border {
+	  border: 1px gray solid;
+	  border-top: 0;
+	  border-bottom: 0;
+      }
+      th {
+	  border-left: 1px gray solid;
+	  font-size: 90%;
+	  padding: 0px 10px;
+      }
+      .left {
+	  float: left;
+      }
+      .right {
+	  float: right;
+      }
+      #search {
+	  margin: 5px;
+	  margin-right: 0px;
+	  background-color: #E4E4E4;
+	  border-width: 0px;
+	  font-weight: bold;
+	  padding: 3px;	  
+      }
+      .clear {
+	  clear: both;
+      }
+      #news {
+	  color: white;
+	  background-color: #BB1919;
+	  height: 25px;
+	  padding: 18px 0px 18px 1280px;
+	  font-size: 130%;
+      }
+      #news:hover {
+	  text-decoration: underline;
+      }
+      .top_bar {
+	  width: 1000px;
+	  height: 0px;
+	  margin: 0 auto;
+      }
+      #logo {
+	  margin-top: 10px;
+      }
+      #sign_in:hover {
+	  border-bottom: 4px #1188BB solid;
+      }
+      #home:hover {
+	  border-bottom: 4px #262626 solid;
+      }
+      #news_:hover {
+	  border-bottom: 4px #992211 solid;
+      }
+      #sport:hover {
+	  border-bottom: 4px #FFEE11 solid;
+      }
+      #weather:hover {
+	  border-bottom: 4px #88CCEE solid;
+      }
+      #i_player:hover {
+	  border-bottom: 4px #ED3D7D solid;
+      }
+      #tv:hover {
+	  border-bottom: 4px #262626 solid;
+      }
+      #radio:hover {
+	  border-bottom: 4px #262626 solid;
+      }
+      #cbbc:hover {
+	  border-bottom: 4px #FFEE11 solid;
+      }
+      #more:hover {
+	  border-bottom: 4px #262626 solid;
+      }
+      #more {
+	  border-right: 1px gray solid;
+	  padding-right: 50px;
+      }
+      #search_icon {
+	  background-color: #E4E4E4;
+	  border-width: 0px;
+	  padding: 2px;
+	  padding-right: 5px;
+	  position: relative;
+	  top: 5px;
+	  height: 17px;
+      }
+    </style>
+    <title>Technology - BBC News</title>
+  </head>
+  <body>
+    <div class="top_bar">
+      <a href="https://www.bbc.com/">
+	<div id="logo">
+	  <div class="bbc left">
+	    B
+	  </div>
+	  <div class="bbc left">
+	    B
+	  </div>
+	  <div class="bbc left">
+	    C
+	  </div>
+	</div>
+      </a>
+      <table class="left">
+	<thead>
+	  <tr>
+	    <th id="sign_in">
+	      <a href="http://ssl.bbc.co.uk/id/signin?ptrt=http%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Ftechnology">Sign In</a>
+	    </th>
+	    <th id="home">
+	      <a href="http://www.bbc.co.uk/news/technology#">Home</a>
+	    </th>
+	    <th id="news_">
+	      <a href="https://www.bbc.com/news/technology#">News</a>
+	    </th>
+	    <th id="sport">
+	      <a href="https://www.bbc.com/sport">Sport</a>
+	    </th>
+	    <th id="weather">
+	      <a href="https://www.bbc.com/weather">Weather</a>
+	    </th>
+	    <th id="i_player">
+	      <a href="http://www.bbc.co.uk/iplayer/">I Player<a/a>
+	    </th>
+	    <th id="tv">
+	      <a href="https://www.bbc.co.uk/iplayer/guide">TV<a/a>
+	    </th>
+	    <th id="radio">
+	      <a href="https://www.bbc.co.uk/sounds">Radio</a>
+	    </th>
+	    <th id="more">
+	      <a href="https://www.bbc.com/news/technology#orb-footer">More</a>
+	    </th>
+	  </tr>
+	</thead>
+      </table>
+      <form action="https://www.bbc.co.uk/search?q=" method="get">
+	<input id="search" class="left" type="text" placeholder="Search">
+	<input id="search_icon" type="image" src="Images/orb-search-dark.png">
+      </form>
+    </div>
+    <div id="news" class="clear">
+      Find local news
+    </div>
+  </body>
+</html>
