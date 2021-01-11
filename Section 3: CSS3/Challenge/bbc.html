@@ -55,7 +55,7 @@
 	  color: white;
 	  background-color: #BB1919;
 	  height: 25px;
-	  padding: 18px 0px 18px 1280px;
+	  padding: 18px 0px 18px 67.5%;
 	  font-size: 130%;
       }
       #news:hover {
@@ -111,6 +111,63 @@
 	  position: relative;
 	  top: 5px;
 	  height: 17px;
+      }
+      .centered {
+	  width: 100%;
+	  height: 0px;
+	  margin: 0 auto;
+      }
+      .second_bar {
+	  background-color: #A91717;
+	  color: white;
+	  padding-left: 460px;
+	  padding-right: 525px;
+	  /*
+	  width: 100%;
+	  height: 0px;
+	  margin: 0 auto;
+*/
+
+	  /*
+	  padding: 7px 0px 7px 450px;
+	 */
+      }
+      #home_second {
+	  border-left-width: 0px;
+	  color: white;
+	  padding: 0px;
+	  padding-right: 8px;
+      }
+      .low_padding {
+	  padding: 4px 1px;
+	  border-left-color: #BB4545;
+      }
+      #no_padding {
+	  padding: 0px;
+      }
+      .second_bar_head {
+	  color: white;
+      }
+      #home_second:hover {
+	  border-bottom: 4px white solid;
+      }
+      .second_bar_head:hover {
+	  border-bottom: 4px white solid;
+      }
+      
+      .second_bar_head {
+/*	  padding: 0px; */
+      }
+      #more_second {
+/*	  padding-right: 400px; */
+	  padding-left: 0px;
+	  border-bottom-width: 0px;
+      }
+      #more_second:hover {
+	  border-bottom-width: 0px;
+      }
+      #white {
+	  color: white;
       }
     </style>
     <title>Technology - BBC News</title>
@@ -171,5 +228,24 @@
     <div id="news" class="clear">
       Find local news
     </div>
+    <table class="second_bar clear centered">
+      <thead>
+	<tr>
+	  <th id="home_second"><a href="https://www.bbc.com/news" id="white">Home</a></th>
+	  <th class="low_padding"><a href="https://www.bbc.com/news/uk" class="second_bar_head">UK</a></th>
+	  <th class="low_padding"><a href="https://www.bbc.com/news/world" class="second_bar_head">World</a></th>
+	  <th class="low_padding"><a href="https://www.bbc.com/news/business" class="second_bar_head">Business</a></th>
+	  <th class="low_padding"><a href="https://www.bbc.com/news/politics" class="second_bar_head">Politics</a></th>
+	  <th class="low_padding"><a href="http://completewebdevelopercourse.com/clone/index_files/index.html" class="second_bar_head"></a>Tech</th>
+	  <th class="low_padding"><a href="https://www.bbc.com/news/science_and_environment" class="second_bar_head">Science</a></th>
+	  <th class="low_padding"><a href="https://www.bbc.com/news/health" class="second_bar_head">Health</a></th>
+	  <th class="low_padding"><a href="https://www.bbc.co.uk/news/education" class="second_bar_head">Education</a></th>
+	  <th class="low_padding"><a href="https://www.bbc.com/news/entertainment_and_arts" class="second_bar_head">Entertainments &amp; Arts</a></th>
+	  <th class="low_padding"><a href="https://www.bbc.com/news/av/10318236" class="second_bar_head">Video &amp; Audio</a></th>
+	  <th class="low_padding" id="no_padding"><a href="" class="second_bar_head" id="more_second">More</a></th>
+	</tr>
+      </thead>
+    </table>
+     .0.
   </body>
 </html>
