@@ -100,6 +100,39 @@
 	  top: -35px;
 	  left: -20px;
       }
+      #red_bar {
+	  background-color: #BB1919;
+	  width: 100%;
+	  height: 60px;
+      }
+      #inside_red_bar {
+	  width: 1000px;
+	  margin: 0 auto;
+      }
+      h1 {
+	  color: white;
+	  font-size: 40px;
+	  padding: 0;
+	  margin: 0;
+	  font-weight: normal;
+	  padding-top: 8px;
+      }
+      #find_local {
+	  float: right;
+	  color: white;
+	  position: relative;
+	  top: -35px;
+	  font-size: 125%;
+	  left: -40px;
+	  border: 1px #BB4545 solid;
+	  padding: 4px 7px 4px 5px;
+      }
+      #find_local a {
+	  color: white;
+      }
+      #find_local a:hover {
+	  text-decoration: underline;
+      }
     </style>
     <title>Technology - BBC News</title>
   </head>
@@ -163,6 +196,14 @@
 	<input id="search_bar" type="text" placeholder="Search">
 	<input id="search_icon" type="image" src="Images/orb-search-dark.png">
       </form>
+    </div>
+    <div id="red_bar">
+      <div id="inside_red_bar">
+	<a href="https://www.bbc.com/news"><h1>NEWS</h1></a>
+	<div id="find_local">
+	  <a href="">Find local news</a>
+	</div>
+      </div>
     </div>
   </body>
 </html>
